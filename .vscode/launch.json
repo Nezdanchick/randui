@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "make && ./randui && read -n1 kbd && exit",
+            "command": "make || read -n1 kbd && exit",
             "name": "run",
             "request": "launch",
             "type": "node-terminal"
